@@ -1,0 +1,471 @@
+/**
+ * @file
+ * Styles are organized using the SMACSS technique. @see https://smacss.com/book/
+ *
+ * When you turn on CSS aggregation at admin/config/development/performance, all
+ * of these @include files will be combined into a single file.
+ */
+
+/* HTML element (SMACSS base) rules */
+@import "normalize.css";
+
+/* Layout rules */
+@import "layouts/responsive.css";
+
+/* Component (SMACSS module) rules */
+@import "components/misc.css";
+/* Optionally, add your own components here. */
+@import "print.css";
+
+/* SMACSS theme rules */
+/* @import "theme-A.css"; */
+/* @import "theme-B.css"; */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+h1,h2,h3,h4 {
+  color: rgb(0, 0, 165);
+}
+
+a,
+a:visited,
+a:active {
+  color: rgb(73, 87, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(167, 0, 0);
+}
+
+html {
+  background: #31437f url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Open sans', sans;
+}
+
+body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#page {
+  margin-top: 30px;
+  max-width: 1260px;
+  background: #fff;
+  box-shadow: 0px 0px 16px black;
+}
+
+#main {
+  padding: 0px 1px;
+  margin-top: 47px;
+}
+
+.pt-header-img img {
+  display: block;
+}
+
+#pt-nav {
+  width: 100%;
+  background: url('../images/menugrad.png');
+  float: left;
+}
+
+#pt-nav ul {
+  padding: 0px;
+  margin: 0px;
+  height: 46px;
+}
+
+#pt-nav > ul {
+  padding-left: 12px;
+}
+
+#pt-nav ul li {
+  list-style: none;
+  display: block;
+  float: left;
+  background: url('../images/menugrad.png');
+  padding: 0px 19px;
+  height: 46px;
+  line-height: 46px;
+  position: relative;
+}
+
+#pt-nav ul li.first {
+  padding-left: 20px;
+}
+#pt-nav ul li {
+	padding-left: 10px;
+}
+
+#pt-nav > ul > li:after {
+  content: url('../images/menusep.png');
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#pt-nav > ul > li.first:before {
+  content: url('../images/menusep.png');
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#pt-nav > ul > li:hover {
+  background: url('../images/menugrad-hover.jpg');
+}
+
+#pt-nav > ul > li:hover:before {
+  content: url('../images/menusep-left.jpg');
+  position: absolute;
+  top: 0px;
+  left: -10px;
+}
+
+#pt-nav > ul > li.first:hover:before {
+  content: url('../images/menusep-left.jpg');
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#pt-nav > ul > li:hover:after {
+  content: url('../images/menusep-right.jpg');
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#pt-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  text-shadow: 2px 2px 3px #404e87;
+  font-family: 'Open Sans', sans;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+#pt-nav ul li {
+  position: relative;
+
+}
+
+#pt-nav ul li ul {
+  position: absolute;
+  top: 45px;
+  left: -10px;
+  height: auto;
+  background: #7c0046;
+  white-space: nowrap;
+  display: none;
+  z-index: 9;
+}
+
+#pt-nav ul li.first ul {
+  left: 0px;
+}
+
+#pt-nav ul li ul:hover {
+  display: block;
+}
+
+#pt-nav ul li:hover ul {
+  display: block;
+}
+
+#pt-nav ul li ul li {
+  position: static;
+  float: none;
+  display: block;
+  line-height: 45px;
+  height: 45px;
+}
+
+#pt-nav ul li ul li:hover {
+  background: url('../images/menugrad-hover.jpg');
+}
+
+#pt-nav ul li ul li:hover a {
+  color: white;
+}
+
+/* /nav */
+
+.pt-above-content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.no-slideshow.pt-above-content {
+  display: none;
+}
+
+.pt-above-content p {
+  margin: 0;
+  padding: 0;
+}
+
+.pt-quote {
+  width: 23.8%;
+  float: left;
+  border-bottom: 1px solid blue;
+}
+
+.no-quote .pt-quote {
+  display: none;
+}
+
+.pt-quote-inner {
+  border-right: 1px solid white;
+}
+
+.pt-slideshow {
+  width: 76.2%;
+  float: right;
+}
+
+.no-quote .pt-slideshow {
+  width: 100%;
+}
+
+#content {
+  margin-top: 40px;
+  padding: 0px 40px 20px;
+}
+
+.sidebars {
+  margin-top: 40px;
+}
+
+.pt-footer {
+  max-width: 1260px;
+  margin: 40px auto;
+  text-align: center;
+  color: #b5bac8;
+  font-size: 14px;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.78);
+}
+
+.pt-footer p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.pt-footer a {
+  text-decoration: none;
+  color: #b5bac8;
+}
+
+.pt-footer a:hover {
+  color: #b5bac8;
+  text-decoration: underline;
+}
+
+@media all and (max-width: 1000px) {
+  .pt-quote {
+    width: auto;
+    margin: 0 auto;
+    float: none;
+    border-bottom: none;
+  }
+
+  .pt-quote-inner {
+    border-right: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .pt-slideshow {
+    width: auto;
+    margin: 0 auto;
+    float: none;
+  }
+}
+
+
+/* override zens responsive layout */
+@media (max-width: 959px) and (min-width: 480px) {
+  .two-sidebars .region-sidebar-second .block:nth-child(3n),
+  .two-sidebars .region-sidebar-second .block:nth-child(3n+1),
+  .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
+    float: none;
+    margin: 0 auto;
+    width: auto;
+  }
+}
+
+@media all and (min-width: 700px) {
+  .pt-mobile-menu {
+    display: none !important;
+  }
+}
+
+@media all and (max-width: 700px) {
+  #pt-nav {
+    display: none;
+  }
+
+  .pt-header-img img {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #main {
+    margin-top: 0px;
+  }
+
+  body {
+    padding: 0px;
+  }
+
+  #page {
+    margin: 0px 10px 0px;
+  }
+}
+div.pt-slideshow * {
+	box-shadow: 0 0 0 #000 !important;
+}
+img {
+	max-width: 100% !important;
+	height: auto !important;
+}
+div.pt-quote * {
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+}
+div.faq-question {
+font-weight: bold;
+margin: 10px 0 5px;
+padding: 0 0 5px;
+border-bottom: 1px solid #CCC;
+}
+div.faq-question a {
+	color: #000;
+}
+div.faq-answer {
+margin: 0 0 10px;
+padding: 0;
+}
+div.faq-answer p {
+margin-top: 0;
+}
+div.faq-answer ul.links {
+text-align: right;
+float: none;
+width: auto;
+display: block;
+}
+div.grippie {
+	display: none;
+}
+@media (min-width: 600px) {
+	form label {
+		float: none;
+		display: inline-block !important;
+		width: 10em;
+	}
+	div#edit-submitted-preference.form-radios label {
+		width: auto;
+	}
+	form input,
+	form select {
+		max-width: 60%;
+	}
+	div.form-textarea-wrapper {
+		display: inline-block;
+		max-width: 70%;
+		vertical-align: top;
+	}
+}
+@media (max-width: 480px) {
+	#content {
+		padding: 10px !important;
+	}
+}
+p#byline {
+	margin-top: 40px;
+	font-size: 12px;
+}
+table.gaspumps {
+	width: 100%;
+}
+table.gaspumps td {
+	padding: 5px;
+	width: 16.6%;
+}
+@media (max-width: 670px) {
+	table.gaspumps {
+		width: 118px !important;
+		float: right;
+		margin: 0;
+	}
+	table.gaspumps td {
+		padding: 0 5px;
+		width: 108px;
+		display: block;
+	}
+}
+@media (max-width: 700px) {
+	#content h1#page-title {
+		margin-top: 0 !important;
+	}
+	#content {
+		margin-top: 0 !important;
+	}
+	#page,
+	#main {
+		padding-top: 0 !important;
+		margin-top: 0 !important;
+	}
+}
+table {
+	max-width: 100%;
+}
+table img {
+	width: auto !important;
+	height: auto !important;
+	max-width: 100%;
+}
+img.mobile-logo {
+	display: none;
+}
+@media (max-width: 500px) {
+
+	div.pt-header-img img.large {
+		display: none;
+	}
+	img.mobile-logo {
+		display: block !important;
+		z-index: 100;
+		position: relative;
+		opacity: 1;
+		clear: both;
+	}
+}
+.front #content {
+	margin-top: 0;
+	padding-top: 0;
+}
+.pt-above-content div {
+padding-bottom: 0 !important;
+margin-bottom: 0 !important;
+}
+div.pt-quote  {
+border-bottom-width: 0 !important;
+}
+

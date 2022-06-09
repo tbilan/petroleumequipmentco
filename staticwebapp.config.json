@@ -1,0 +1,254 @@
+{
+  "routes": [
+      {
+        "route": "/site/default/files/1980pump_0.jpg",
+        "redirect": "/files/1980pump_0.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/misc/drupal.js",
+        "redirect": "/files/drupal.js",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/modules/google_analytics/googleanalytics.js",
+        "redirect": "/files/googleanalytics.js",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/modules/responsive_menus/styles/meanMenu/jquery.meanmenu.min.js",
+        "redirect": "/files/jquery.meanmenu.min.js",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/modules/responsive_menus/styles/meanMenu/responsive_menus_mean_menu.js",
+        "redirect": "/files/responsive_menus_mean_menu.js",
+        "statusCode": 301
+      },
+      {
+        "route": "/misc/jquery.once.js",
+        "redirect": "/files/jquery.once.js",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/modules/webform_conditional/webform_conditional.js",
+        "redirect": "/files/webform_conditional.js",
+        "statusCode": 301
+      },
+      {
+        "route": "/misc/textarea.js",
+        "redirect": "/files/textarea.js",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/modules/webform/js/webform.js",
+        "redirect": "/files/webform.js",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/themes/petrol/js/script.js",
+        "redirect": "/files/script.js",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/modules/nivo_slider/js/nivo_slider.js",
+        "redirect": "/files/nivo_slider.js",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/libraries/nivo-slider/jquery.nivo.slider.pack.js",
+        "redirect": "/files/jquery.nivo.slider.pack.js",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/21stpump_0.jpg",
+        "redirect": "/files/21stpump_0.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/1940pump_0.jpg",
+        "redirect": "/files/1940pump_0.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/1960pump_0.jpg",
+        "redirect": "/files/1960pump_0.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/1970pump_0.jpg",
+        "redirect": "/files/1970pump_0.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/1980pump_0.jpg",
+        "redirect": "/files/1980pump_0.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/1990pump_0.jpg",
+        "redirect": "/files/1990pump_0.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/1375074044Veeder-Root.jpg",
+        "redirect": "/files/1375074044Veeder-Root.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/balcrank_logo1.jpg",
+        "redirect": "/files/balcrank_logo1.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/building.jpg",
+        "redirect": "/files/building.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/cim-tek-filtration-logo-primary.jpg",
+        "redirect": "/files/cim-tek-filtration-logo-primary.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/Clay-Bailey-100th-anniversary-logo.jpg",
+        "redirect": "/files/Clay-Bailey-100th-anniversary-logo.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/Flex-ing1.jpg",
+        "redirect": "/files/Flex-ing1.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/gilbarco1.jpg",
+        "redirect": "/files/gilbarco1.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/gracologo1.jpg",
+        "redirect": "/files/gracologo1.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/HannayLogo-Stretched_4C-1024x320.jpg",
+        "redirect": "/files/HannayLogo-Stretched_4C-1024x320.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/header.jpg",
+        "redirect": "/files/header.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/Home_logosrevised.jpg",
+        "redirect": "/files/Home_logosrevised.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/imag000_0.jpg",
+        "redirect": "/files/imag000_0.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/imag001_0.jpg",
+        "redirect": "/files/imag001_0.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/imag002_0.jpg",
+        "redirect": "/files/imag002_0.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/imag005.jpg",
+        "redirect": "/files/imag005.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/imag018_0.jpg",
+        "redirect": "/files/imag018_0.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/imag019_0.jpg",
+        "redirect": "/files/imag019_0.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/imag020_0.jpg",
+        "redirect": "/files/imag020_0.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/large_Passport-PX60_0.jpg",
+        "redirect": "/files/large_Passport-PX60_0.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/lsi-logo-stacked.jpg",
+        "redirect": "/files/lsi-logo-stacked.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/medium_verifone-logo-primary-pos-2color_thumb1.jpg",
+        "redirect": "/files/medium_verifone-logo-primary-pos-2color_thumb1.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/morrison_logo1.jpg",
+        "redirect": "/files/morrison_logo1.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/national_spencer_logo1_0.jpg",
+        "redirect": "/files/national_spencer_logo1_0.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/NOV_logo_250.jpg",
+        "redirect": "/files/NOV_logo_250.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/opw_logo.jpg",
+        "redirect": "/files/opw_logo.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/requestaquote.jpg",
+        "redirect": "/files/requestaquote.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/rjlogo1.jpg",
+        "redirect": "/files/rjlogo1.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/RoperLogoHome.jpg",
+        "redirect": "/files/RoperLogoHome.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/rs-logo-high-res.jpg",
+        "redirect": "/files/rs-logo-high-res.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/Tuthill_Logo.jpg",
+        "redirect": "/files/Tuthill_Logo.jpg",
+        "statusCode": 301
+      },
+      {
+        "route": "/sites/default/files/mobile-logo.png",
+        "redirect": "/files/mobile-logo.png",
+        "statusCode": 301
+      },
+      {
+        "route": "/request-quote",
+        "redirect": "/contact-us",
+        "statusCode": 301
+      }
+  ]
+}
